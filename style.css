@@ -1,5 +1,6 @@
 body {
     background-color:#777777;
+    height: 700px;
 }
 
 .container {
@@ -18,11 +19,18 @@ h1 {
     color: #4aaaa5;
 }
 
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
 
 footer {
     height:40px;
     background-color: #eee;
     border-top: 5px solid #4aaaa5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+      
 
 }
 
@@ -30,4 +38,12 @@ nav {
     background-color: #eee;
     border: 2px solid #cccccc;
     font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+.box {
+width:150px;
+height: 150px;
+background-color: #4aaaa5;   
+margin: 4%;
+text-align:center;
 }
